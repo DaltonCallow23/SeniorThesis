@@ -4,7 +4,7 @@
 
 ## Introduction
 
-The RF Telemetry Communication System is a senior thesis project designed to facilitate seamless two-way communication between a rocket and a ground station. Employing state-of-the-art Radio Frequency (RF) technology, this system enables the real-time collection of vital information such as altitude, location, temperature, and more. Its primary objective is to ensure the continuous acquisition of flight-related data, even in the event of a mission failure when other data collection systems may become inoperative.
+The RF Telemetry Communication System is a senior thesis project designed to facilitate two-way communication between a rocket and a ground station. Employing Radio Frequency (RF) technology, this system enables the real-time collection of vital information such as altitude, location, temperature, and more. Its primary objective is to ensure the continuous acquisition of flight-related data, even in the event of a mission failure when other data collection systems may become inoperative.
 
 ## Use Cases
 
