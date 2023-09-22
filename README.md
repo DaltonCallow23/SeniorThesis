@@ -72,6 +72,27 @@ The RF Telemetry Communication System is a senior thesis project designed to fac
 **Communication Error**
   - If a communication error occurs during command transmission, the ground station retries sending the command and logs the issue.
 
+#### Use Case 5: Process Data
+
+**Overview:** The ground station processes and saves received data
+
+**Main Success Scenario**
+
+1. Ground Station receives telemetry data
+2. The data is prepared to be saved
+3. The data is saved to a csv file 
+
+**Extensions:**
+
+**Invalid Data**
+ - If invalid data is attempted to be processed the ground station will discard it and log the discrepancy.
+
+### Actor: Mother Board
+
+### Use Case 6: Sensor Data Collection
+
+1. The MotherBoard will be connected to an assortment of sensors 
+2. Periodically the mother board will collect sensor data and prepare it for transmission
 ## Technology Overview
 
 ### Hardware Components:
