@@ -74,25 +74,38 @@ The RF Telemetry Communication System is a senior thesis project designed to fac
 
 #### Use Case 5: Process Data
 
-**Overview:** The ground station processes and saves received data
+**Overview:** The ground station processes and saves received data.
 
-**Main Success Scenario**
+**Main Success Scenario:**
 
-1. Ground Station receives telemetry data
-2. The data is prepared to be saved
-3. The data is saved to a csv file 
+The ground station successfully receives telemetry data from the rocket.
+The received data is prepared for storage, including data validation and formatting.
+The processed telemetry data is saved to a CSV (Comma-Separated Values) file in the designated storage location.
 
 **Extensions:**
 
 **Invalid Data**
- - If invalid data is attempted to be processed the ground station will discard it and log the discrepancy.
-
+-If telemetry data received is found to be invalid or corrupted during processing:
+The ground station logs the discrepancy or error for further analysis.
+The system discards the invalid data to prevent its inclusion in the saved CSV file.
+Processing continues with the next valid data packet received.
 ### Actor: Mother Board
 
 ### Use Case 6: Sensor Data Collection
 
-1. The MotherBoard will be connected to an assortment of sensors 
-2. Periodically the mother board will collect sensor data and prepare it for transmission
+**Overview:** 
+The Motherboard is responsible for collecting data from an assortment of sensors and preparing it for transmission.
+
+**Main Success Scenario:**
+
+The Motherboard is connected to various sensors as per project requirements.
+Periodically, at predefined intervals, the Motherboard initiates the collection of sensor data.
+The Motherboard retrieves data from all connected sensors.
+The collected sensor data is processed and formatted for transmission.
+
+**Extensions:**
+None
+
 ## Technology Overview
 
 ### Hardware Components:
